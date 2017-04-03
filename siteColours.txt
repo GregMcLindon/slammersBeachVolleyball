@@ -1,0 +1,11 @@
+Green
+
+#707467
+
+Light green
+#667c73
+
+DarkGrey
+#494948
+LightGrey
+#717171
