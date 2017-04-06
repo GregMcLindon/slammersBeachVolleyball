@@ -69,8 +69,12 @@ nav li a:hover {
 	color: orange;
 	text-decoration: none;
 }
-nav li a:active {
+nav li a:active{
 	color: yellow;
+	text-decoration: none;
+}
+.header nav li active a{
+	color: orange;
 	text-decoration: none;
 }
 /*beach net section*/
@@ -334,4 +338,59 @@ footer{
 
 .filler{
 	margin-top: 145px;
+}
+
+/*join now section*/
+.banner2 .button {
+	margin-top: 5%;
+	margin-right: 35%;
+	margin-bottom: 5%;
+	margin-left: 38%;
+	text-align: center;
+	border: 3px solid orange;
+	color: orange;
+	transition: all 0.3s linear;
+	background-color: #717171;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	width:20%;
+	height:10%;
+}
+.banner2 .button a{
+	color: orange;
+	text-decoration: none;
+    font-size: 3vw;	
+	text-align:center;
+}
+.banner2 .button:hover {
+	background-color: orange;
+	color: #717171;
+	border: 3px solid #717171;
+	font-size: 3vw;	
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align:center;
+}
+.banner2 .button:hover a {
+	color: #717171;
+	font-size: 3vw;	
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align:center;
+}
+.article{
+	margin-bottom: 5pc;
+	padding-left: 35%;
+	padding-top: 10px;
+	background-image: url("images/beachVolleyBallLadies.gif");
+	background-repeat: no-repeat;
+	background-position: 30px 25px;
+	background-size: 30%;	
+	color:#717171;
 }
