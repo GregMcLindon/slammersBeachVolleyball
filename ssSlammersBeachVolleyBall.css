@@ -11,14 +11,12 @@ body{
 	font-weight: 200;
 	background-image: url("images/beachSand.gif");
 	background-size: 50% 50%;
-	height: 1000px;
 }
 /*main section that holds the other sections*/
 .container{
 	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 1000px;
 	background-color: #ffffff;
 }
 /*logo and navigation bar*/
@@ -28,10 +26,17 @@ body{
 	background-color: #fff;
 	margin-right: 25px;
 	margin-top: 25px;
-	background-image: url("images/logo/Sbv_GREEN.gif");
+}
+/*method to link image to home page: source - http://ran.ge/2009/11/11/css-trick-turning-a-background-image-into-a-clickable-link/ accessed 6-4-2017 AUTHORED BY Aaron D. Campbell
+NOVEMBER 11, 2009 CSS, DEVELOPMENT, TUTORIALS & SNIPPITS CSS, DESIGN */
+#homeLogo{
+    background-image: url("images/logo/Sbv_GREEN.gif");
 	background-repeat: no-repeat;
 	background-position: 25px;
 	background-size: 10pc;
+    display:block;
+    text-indent:-9999px;
+	height: 7pc;
 }
 nav{
 	width: 75%;
@@ -285,4 +290,48 @@ footer{
 	background-color: #494948;
 	margin-bottom: 25px;
 	text-align: center;	
+}
+
+/*used on tournaments page*/
+/*beach net section*/
+.banner2{
+	background-image: url("images/beachVolleyBallGame.gif");
+	background-size:cover;
+	background-attachment:fixed;
+	padding-top: 50px;
+	background-repeat: no-repeat;
+	background-position:center;
+	padding-bottom: 2pc;
+	padding-left: 0px;
+	padding-right: 1px;	
+	height: 450px;
+}
+.bannerStrip3 {
+	padding-top: 0.5pc;
+	vertical-align: middle;
+	padding-bottom: 0.5pc;
+	margin-top: 12pc;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #fff;
+	color: #717171;
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 1pc;
+	font-weight: bold;
+}
+	
+.bannerStrip3 h2{
+	color: #717171;
+	text-align: center;
+	letter-spacing: 4px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 2pc;
+	line-height: 0px;
+}
+
+.filler{
+	margin-top: 145px;
 }
